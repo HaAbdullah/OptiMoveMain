@@ -64,7 +64,7 @@ def splitter(path, viewing_side):
 
             # Get the absolute path from the root
             absolute_file_path = os.path.abspath(complete_file)
-            print("Complete file path from root: " + absolute_file_path)
+            # print("Complete file path from root: " + absolute_file_path)
             # Save the image
             cv2.imwrite(complete_file , cropped_image)
             # print(f"{directory_path}/{file_name}")  # This should print the correct path
