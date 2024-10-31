@@ -3,8 +3,6 @@ import "./Styling/Final.css";
 import i1 from "./img/input.png";
 
 //TODO:
-//TODO:
-// Black move not working
 // There is bunch of console errors, fix those
 // Remove the footer because this is the real file
 // Add - for empty tiles for the image tiles instead of "W" and "B"
@@ -177,101 +175,101 @@ const Final = ({
               viewBox="0.0 0.0 159.28083989501312 152.7270341207349"
               fill="none"
               stroke="none"
-              stroke-linecap="square"
-              stroke-miterlimit="10"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              strokeLinecap="square"
+              strokeMiterlimit="10"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               xmlns="http://www.w3.org/2000/svg"
             >
               <clipPath id="p.0">
                 <path
                   d="m0 0l159.28084 0l0 152.72704l-159.28084 0l0 -152.72704z"
-                  clip-rule="nonzero"
+                  clipRule="nonzero"
                 />
               </clipPath>
-              <g clip-path="url(#p.0)">
+              <g clipPath="url(#p.0)">
                 <path
                   fill="#000000"
-                  fill-opacity="0.0"
+                  fillOpacity="0.0"
                   d="m0 0l159.28084 0l0 152.72704l-159.28084 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   fill="#0f1a20"
                   d="m0 0l156.37796 0l0 150.4252l-156.37796 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   stroke="#4045c9"
-                  stroke-width="10.0"
-                  stroke-linejoin="round"
-                  stroke-linecap="butt"
+                  strokeWidth="10.0"
+                  strokeLinejoin="round"
+                  strokeLinecap="butt"
                   d="m0 0l156.37796 0l0 150.4252l-156.37796 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   fill="#ff4d94"
                   d="m33.57192 130.84026l97.76378 0l0 -20.188972l-97.76378 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   stroke="#ff4d94"
-                  stroke-width="1.0"
-                  stroke-linejoin="round"
-                  stroke-linecap="butt"
+                  strokeWidth="1.0"
+                  strokeLinejoin="round"
+                  strokeLinecap="butt"
                   d="m33.57192 130.84026l97.76378 0l0 -20.188972l-97.76378 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   fill="#ff4d94"
                   d="m33.573566 39.79621l97.79343 0l0 -20.210997l-97.79343 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   stroke="#ff4d94"
-                  stroke-width="1.0"
-                  stroke-linejoin="round"
-                  stroke-linecap="butt"
+                  strokeWidth="1.0"
+                  strokeLinejoin="round"
+                  strokeLinecap="butt"
                   d="m33.573566 39.79621l97.79343 0l0 -20.210997l-97.79343 0z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   fill="#ff4d94"
                   d="m131.3676 130.85039l0 -111.273605l-20.832443 0l0 111.273605z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   stroke="#ff4d94"
-                  stroke-width="1.0"
-                  stroke-linejoin="round"
-                  stroke-linecap="butt"
+                  strokeWidth="1.0"
+                  strokeLinejoin="round"
+                  strokeLinecap="butt"
                   d="m131.3676 130.85039l0 -111.273605l-20.832443 0l0 111.273605z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   fill="#ff4d94"
                   d="m52.95009 130.85039l0 -60.482162l-22.796642 0l0 60.482162z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   stroke="#ff4d94"
-                  stroke-width="1.0"
-                  stroke-linejoin="round"
-                  stroke-linecap="butt"
+                  strokeWidth="1.0"
+                  strokeLinejoin="round"
+                  strokeLinecap="butt"
                   d="m52.95009 130.85039l0 -60.482162l-22.796642 0l0 60.482162z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   fill="#ff4d94"
                   d="m13.233487 84.85541l28.317242 -31.410004l28.317238 31.410004z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
                 <path
                   stroke="#ff4d94"
-                  stroke-width="1.0"
-                  stroke-linejoin="round"
-                  stroke-linecap="butt"
+                  strokeWidth="1.0"
+                  strokeLinejoin="round"
+                  strokeLinecap="butt"
                   d="m13.233487 84.85541l28.317242 -31.410004l28.317238 31.410004z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
               </g>
             </svg>
