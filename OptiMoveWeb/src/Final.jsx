@@ -3,12 +3,20 @@ import "./Styling/Final.css";
 import i1 from "./img/input.png";
 
 //TODO:
+//TODO:
+// Black move not working
+// There is bunch of console errors, fix those
 // Remove the footer because this is the real file
-// Add CSS animations
-// Refactor everything: remove unnecessary files
+// Add - for empty tiles for the image tiles instead of "W" and "B"
+// Add CSS animations: the image flip to cropped version
+// Refactor everything: remove unnecessary files and only keep data set where it is needed
 // add venv to gitingore
 // Make it dynamic for mobiles lol
 // clean up any unnecessary print statements in both flask server and console
+// Add to docker
+// Make a yt video for this project detailing installation
+// For the attach image: put the plus behind the spline and the other on top as it is rn
+// Apply css changes to the OptiMoveDemo
 
 console.log("Rerendered");
 const Final = ({
@@ -50,7 +58,7 @@ const Final = ({
 
         // Second request to /api/fen
         const formData2 = new FormData();
-        formData2.append("usrTurn", FEN);
+        formData2.append("usrTurn", Turn);
         const response2 = await fetch("http://127.0.0.1:5000/api/fen", {
           method: "POST",
           body: formData2,
